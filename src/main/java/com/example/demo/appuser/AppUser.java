@@ -31,6 +31,7 @@ public class AppUser implements UserDetails {
             generator = "student_sequence"
     )
     private Long id;
+    @Column(firstname)
     private String firstName;
     private String lastName;
     private String email;
